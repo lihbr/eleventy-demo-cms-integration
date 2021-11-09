@@ -16,10 +16,10 @@ Examples of integrating 11ty with a CMS used during my talk: _"Integrating 11ty 
 npm install
 
 # run a demo dev server using its number
-npm run dev:0
+npm run dev:1
 
 # build a demo using its number
-npm run build:0
+npm run build:1
 ```
 
 ## License

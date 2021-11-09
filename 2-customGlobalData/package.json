@@ -1,5 +1,5 @@
 {
-	"name": "eleventy-demo-cms-integration.0",
+	"name": "eleventy-demo-cms-integration.2",
 	"version": "0.0.0",
 	"private": true,
 	"scripts": {
@@ -7,6 +7,7 @@
 		"build": "cross-env DEBUG=Eleventy:Demo eleventy"
 	},
 	"dependencies": {
+		"your-favorite-cms": "^0.0.0",
 		"debug": "^4.3.2"
 	},
 	"devDependencies": {

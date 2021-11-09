@@ -1,5 +1,6 @@
 # custom
 dist
+_site
 
 # os
 .DS_Store

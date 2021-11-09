@@ -11,13 +11,22 @@
 	"author": "Lucie Haberer <hello@lihbr.com> (https://lihbr.com)",
 	"type": "module",
 	"scripts": {
-		"dev:0": "npm run dev -w 0-globalDataFiles",
-		"build:0": "npm run build -w 0-globalDataFiles"
+		"dev:0": "echo \"`0-yourFavoriteCMS` is just a mocked CMS client, there is no `dev` command for it\" && exit 0",
+		"build:0": "echo \"`0-yourFavoriteCMS` is just a mocked CMS client, there is no `build` command for it\" && exit 0",
+		"dev:1": "npm run dev -w 1-globalDataFiles",
+		"build:1": "npm run build -w 1-globalDataFiles",
+		"dev:2": "npm run dev -w 2-customGlobalData",
+		"build:2": "npm run build -w 2-customGlobalData",
+		"dev:3": "npm run dev -w 3-plugin",
+		"build:3": "npm run build -w 3-plugin"
 	},
 	"engines": {
 		"node": ">=16.0.0"
 	},
 	"workspaces": [
-		"0-globalDataFiles"
+		"0-yourFavoriteCMS",
+		"1-globalDataFiles",
+		"2-customGlobalData",
+		"3-plugin"
 	]
 }
